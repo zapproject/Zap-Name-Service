@@ -1,9 +1,9 @@
-<!---Zap Name Service Smart Contract--->
+## Zap Name Service Smart Contract
 The Zap Name Service is an ERC-721 compliant smart contract that allows users to register and manage domain names. The contract requires users to own a minimum of 10,000 ZAP tokens to register a domain name.
 
 ``Ownership of ZAP tokens is verified using the ERC-20 interface of the token contract, and the contract checks the balance and allowance of the caller before allowing the registration of a new domain name.``
 
-<!--Once a domain name is registered, the user can set a record for that domain, which is stored in the contract. Users can also retrieve the record for a domain and get the address associated with a domain name.-->
+# Once a domain name is registered, the user can set a record for that domain, which is stored in the contract. Users can also retrieve the record for a domain and get the address associated with a domain name
 
 The smart contract also allows users to get a list of all registered domain names, and the corresponding token IDs.
 
